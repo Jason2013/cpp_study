@@ -42,4 +42,5 @@ add_executable(case06
 #set_target_properties(case05
 #    PROPERTIES
 #    COMPILE_FLAGS /wd"4819"
+TEST3
 #)
