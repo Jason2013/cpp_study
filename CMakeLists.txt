@@ -43,4 +43,5 @@ add_executable(case06
 #    PROPERTIES
 #    COMPILE_FLAGS /wd"4819"
 TEST3
+TEST300
 #)
