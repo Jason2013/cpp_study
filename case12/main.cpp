@@ -23,7 +23,6 @@ std::vector<Widget> createVec()
 template <typename T>
 void f(const T& param)
 {
-    using std::count;
     using boost::typeindex::type_id_with_cvr;
 
     cout << "T = " << type_id_with_cvr<T>().pretty_name() << endl;
