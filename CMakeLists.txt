@@ -9,5 +9,8 @@ add_subdirectory(case02)
 # case03 测试virtual destructor的影响
 add_subdirectory(case03)
 
+# case04 测试通过全局变量初始化对象列表的影响
+add_subdirectory(case04)
+
 add_subdirectory(case12)
 
