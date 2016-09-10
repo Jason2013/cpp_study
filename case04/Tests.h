@@ -10,8 +10,8 @@ class Tests
         static Tests* instance();
         void registerTest(const std::string& name, TestBase * (*factory)() = nullptr);
         std::map<std::string, TestBase * (*)()>& getNames();
-		Tests() { std::cout << "Tests()" << std::endl; }
-		~Tests() { std::cout << "~Tests()" << std::endl; }
+        Tests() { std::cout << "Tests()" << std::endl; }
+        ~Tests() { std::cout << "~Tests()" << std::endl; }
     private:
         std::map<std::string, TestBase * (*)()> _names;
 };
