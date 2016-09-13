@@ -12,5 +12,8 @@ add_subdirectory(case03)
 # case04 测试通过全局变量初始化对象列表的影响
 add_subdirectory(case04)
 
+# case05 测试通过全局变量、局部静态变量的初始化顺序
+add_subdirectory(case05)
+
 add_subdirectory(case12)
 

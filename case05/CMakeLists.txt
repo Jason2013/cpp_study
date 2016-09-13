@@ -1,0 +1,12 @@
+add_executable(case05
+    object.h
+    object2.h
+    local1.h
+    local1.cpp
+    local2.h
+    local2.cpp
+    main.cpp
+    object1.cpp
+    object2.cpp
+    object3.cpp
+)
