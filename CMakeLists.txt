@@ -15,5 +15,8 @@ add_subdirectory(case04)
 # case05 测试通过全局变量、局部静态变量的初始化顺序
 add_subdirectory(case05)
 
+# case06 测试两个类相互引用对方的成员函数时，该如何声明和定义
+add_subdirectory(case06)
+
 add_subdirectory(case12)
 
