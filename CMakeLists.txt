@@ -18,5 +18,8 @@ add_subdirectory(case05)
 # case06 测试两个类相互引用对方的成员函数时，该如何声明和定义
 add_subdirectory(case06)
 
+# case07 测试 Python/C 扩展
+add_subdirectory(case07)
+
 add_subdirectory(case12)
 
