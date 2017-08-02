@@ -21,8 +21,7 @@ add_subdirectory(case06)
 # case07 测试 Python/C 扩展
 add_subdirectory(case07)
 
-# case08 测试两个类相互引用对方的成员函数时，该如何声明和定义
-# 与 case06 相同，可以替换掉。
+# case08 用 VC 的 crtdbg 库检测内存泄露
 add_subdirectory(case08)
 
 # case09 测试 chrono 计时功能

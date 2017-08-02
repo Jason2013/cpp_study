@@ -1,39 +1,15 @@
+#include "MemoryDebug.h" // muse be included first
+
 #include <iostream>
-using namespace std;
 
-class B;
-
-class A
-{
-public:
-    void show(const B* p);
-    int val;
-};
-
-class B
-{
-public:
-    void show(const A* p)
-    {
-        cout << "B.show(" << p->val << ")" << endl;
-    }
-    int val;
-};
-
-void A::show(const B* p)
-{
-    cout << "A.show(" << p->val << ")" << endl;
-}
+#include "RedefineNewOperator.h" // muse be included last
 
 int main()
 {
-    A a;
-    a.val = 100;
-    B b;
-    b.val = 200;
+    _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
-    a.show(&b);
-    b.show(&a);
+    char* p = new char[10];
+    char* p2 = (char*)malloc(100);
 
     return 0;
 }
