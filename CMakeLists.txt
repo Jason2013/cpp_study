@@ -21,5 +21,15 @@ add_subdirectory(case06)
 # case07 测试 Python/C 扩展
 add_subdirectory(case07)
 
+# case08 测试两个类相互引用对方的成员函数时，该如何声明和定义
+# 与 case06 相同，可以替换掉。
+add_subdirectory(case08)
+
+# case09 测试 chrono 计时功能
+add_subdirectory(case07)
+
+# case10 用 chrono 计时功能测试 map 与 unordered_map 的性能
+add_subdirectory(case10)
+
 add_subdirectory(case12)
 

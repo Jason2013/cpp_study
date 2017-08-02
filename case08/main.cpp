@@ -20,7 +20,6 @@ public:
     int val;
 };
 
-
 void A::show(const B* p)
 {
     cout << "A.show(" << p->val << ")" << endl;
