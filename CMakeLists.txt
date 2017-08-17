@@ -30,5 +30,8 @@ add_subdirectory(case09)
 # case10 用 chrono 计时功能测试 map 与 unordered_map 的性能
 add_subdirectory(case10)
 
+# case11 测试单例模式的局部静态对象的构造函数何时执行、执行次数
+add_subdirectory(case11)
+
 add_subdirectory(case12)
 
