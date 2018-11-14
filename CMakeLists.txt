@@ -36,3 +36,5 @@ add_subdirectory(case11)
 # case12 测试用获取 _VA_ARGS_ 宏中可变参数的数量
 add_subdirectory(case12)
 
+# case13 测试可变模板参数 variadic template parameter
+add_subdirectory(case13)

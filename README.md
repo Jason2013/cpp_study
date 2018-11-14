@@ -22,3 +22,4 @@
 
 # case12 测试用获取 _VA_ARGS_ 宏中可变参数的数量
 
+# case13 测试可变模板参数 variadic template parameter
