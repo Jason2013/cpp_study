@@ -33,5 +33,6 @@ add_subdirectory(case10)
 # case11 测试单例模式的局部静态对象的构造函数何时执行、执行次数
 add_subdirectory(case11)
 
+# case12 测试用获取 _VA_ARGS_ 宏中可变参数的数量
 add_subdirectory(case12)
 
