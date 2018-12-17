@@ -38,3 +38,6 @@ add_subdirectory(case12)
 
 # case13 测试可变模板参数 variadic template parameter
 add_subdirectory(case13)
+
+# case14 测试 std::map 的使用方法
+add_subdirectory(case14)
