@@ -1,3 +1,4 @@
+*.swp
 .gitignore
 bld
-*.swp
+build
