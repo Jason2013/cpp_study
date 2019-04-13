@@ -1,5 +1,7 @@
 # CPP Study
 
+[![Build status](https://ci.appveyor.com/api/projects/status/8kft9qe4v78fq0yl/branch/master?svg=true)](https://ci.appveyor.com/project/Jason2013/cpp-study/branch/master)
+
 ## case01 测试vector与move constructor、move assignment的影响
 
 ## case02 测试vector与move constructor、move assignment的影响
