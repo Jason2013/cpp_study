@@ -1,6 +1,6 @@
 # CPP Study
 
-## case02 测试vector与move constructor、move assignment的影响
+## case01 测试vector与move constructor、move assignment的影响
 
 ## case02 测试vector与move constructor、move assignment的影响
 
