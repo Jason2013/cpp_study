@@ -29,3 +29,5 @@
 ## case13 测试可变模板参数 variadic template parameter
 
 ## case14 测试 std::map 的使用方法及下标运算符（[]）。
+
+## case15 测试 Catch2 的使用方法

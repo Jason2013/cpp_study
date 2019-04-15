@@ -41,3 +41,6 @@ add_subdirectory(case13)
 
 # case14 测试 std::map 的使用方法
 add_subdirectory(case14)
+
+# case15 测试 Catch2 的使用方法
+add_subdirectory(case15)
