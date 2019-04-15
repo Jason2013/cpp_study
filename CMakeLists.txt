@@ -19,7 +19,7 @@ add_subdirectory(case05)
 add_subdirectory(case06)
 
 # case07 测试 Python/C 扩展
-add_subdirectory(case07)
+# add_subdirectory(case07)
 
 # case08 用 VC 的 crtdbg 库检测内存泄露
 add_subdirectory(case08)
